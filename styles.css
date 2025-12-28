@@ -1,0 +1,91 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color:#fff;
+  background-color:#081327;
+}
+.site-header{position:fixed;top:0;right:0;width:100%;padding:28px 40px;z-index:10}
+.nav-items{list-style:none;display:flex;gap:36px;justify-content:flex-end;font-weight:700;letter-spacing:1px}
+.nav-items a{color:inherit;text-decoration:none}
+.nav-link{display:inline-block;padding:4px 6px;transition:color .15s ease}
+.nav-link:hover{color:#cfdaf3}
+
+/* FAQ page styles */
+.faq-page{
+  min-height:100vh;
+  padding:120px 60px;
+  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('backgrounds/aesthe.gif');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.faq-title{font-size:34px;margin-bottom:16px}
+.back-arrow{display:inline-block;margin-bottom:24px;color:#cfdaf3;text-decoration:none;font-size:22px}
+/* About page styles (reuses FAQ background for now) */
+.about-page{
+  min-height:100vh;
+  padding:120px 60px;
+  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('backgrounds/aesthe.gif');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.about-title{font-size:34px;margin-bottom:16px}
+
+/* Video styles */
+.video-section{margin-top:20px}
+.video-wrap{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.45)}
+.video-wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:flex-start;
+  padding:80px 60px;
+  background-image: url('backgrounds/aesthe.gif');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.content{max-width:780px}
+.brand{
+  font-family: 'Playfair Display', serif;
+  font-size:86px;
+  color:#dfe9ff;
+  opacity:0.95;
+  text-transform:none;
+  letter-spacing:2px;
+  margin-bottom:24px;
+  text-shadow: 0 6px 0 rgba(4,7,32,0.6);
+}
+
+.cta{margin-top:24px}
+.title{
+  font-size:34px;
+  font-weight:700;
+  color:#fff;
+  margin-bottom:8px;
+}
+
+.click-here{
+  display:inline-block;
+  font-family: 'Playfair Display', serif;
+  font-style:italic;
+  color:#cfdaf3;
+  font-size:30px;
+  text-decoration:none;
+  border-bottom:2px solid rgba(255,255,255,0.06);
+  padding-bottom:6px;
+  transition:transform .18s ease, color .18s ease;
+}
+.click-here:hover{transform:translateY(-3px);color:#ffffff}
+
+.credits{position:fixed;left:24px;bottom:18px;opacity:0.6}
+
+/* Make it responsive */
+@media (max-width:720px){
+  .brand{font-size:48px}
+  .click-here{font-size:22px}
+  .hero{padding:40px 24px}
+}
