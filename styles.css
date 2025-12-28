@@ -15,7 +15,7 @@ body{
 .faq-page{
   min-height:100vh;
   padding:120px 60px;
-  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('https://wallpaperaccess.com/full/2641074.gif');
+  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('https://github.com/wsphomie791-star/frickland/blob/main/aesthe.gif');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -89,6 +89,7 @@ body{
   .click-here{font-size:22px}
   .hero{padding:40px 24px}
 }
+
 
 
 
