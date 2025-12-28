@@ -90,22 +90,6 @@ body{
   .hero{padding:40px 24px}
 }
 
-.faq-page{
-  min-height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  padding: 80px 60px;
-  
-  /* 1. Add your directory path here */
-  /* The linear-gradient creates a dark tint so your white text stays readable */
-  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), 
-                    url('https://wallpaperaccess.com/full/2641074.gif'); 
-  
-  /* 2. Positioning & Scaling */
-  background-size: cover;      /* Scales the image to fill the screen */
-  background-position: center; /* Keeps the image centered */
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: creates a parallax scroll effect */
-}
+
 
 
