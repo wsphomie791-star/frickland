@@ -15,7 +15,7 @@ body{
 .faq-page{
   min-height:100vh;
   padding:120px 60px;
-  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('backgrounds/aesthe.gif');
+  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('aesthe.gif');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -26,7 +26,7 @@ body{
 .about-page{
   min-height:100vh;
   padding:120px 60px;
-  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('backgrounds/aesthe.gif');
+  background-image: linear-gradient(rgba(8, 19, 39, 0.6), rgba(8, 19, 39, 0.6)), url('aesthe.gif');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -42,7 +42,7 @@ body{
   display:flex;
   align-items:flex-start;
   padding:80px 60px;
-  background-image: url('backgrounds/aesthe.gif');
+  background-image: url('aesthe.gif');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
@@ -89,3 +89,4 @@ body{
   .click-here{font-size:22px}
   .hero{padding:40px 24px}
 }
+
